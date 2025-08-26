@@ -8,7 +8,7 @@ exports.getProducts = (req, res, next) => {
         prods: rows,
         pageTitle: "All Products",
         path: "/products",
-        hasProducts: rows.length > 0,
+        // hasProducts: rows.length > 0,
       });
     })
     .catch((err) => console.log(err));
