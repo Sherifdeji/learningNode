@@ -9,7 +9,7 @@ const pool = mysql.createPool({
   host: "localhost",
   user: "root",
   password: "Sherif",
-  database: "sys",
+  database: "node-course",
 });
 
 module.exports = pool.promise();
