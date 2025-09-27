@@ -42,6 +42,11 @@
           >Login</a
         >
       </li>
+      <li class="main-header__item">
+        <form action="/logout" method="post">
+          <button type="submit">Logout</button>
+        </form>
+      </li>
     </ul>
   </nav>
 </header>
@@ -64,19 +69,16 @@
         >Orders</a
       >
     </li>
-    <li class="mobile-nav__item">
-      <a
-        class="<%= path === '/admin/add-product' ? 'active' : '' %>"
-        href="/admin/add-product"
-        >Add Product
-      </a>
+    <!-- <li class="mobile-nav__item">
+      <a class="<%= path === '/admin/add-product' ? 'active' : '' %>" href="/admin/add-product">Add Product </a>
     </li>
     <li class="mobile-nav__item">
-      <a
-        class="<%= path === '/admin/products' ? 'active' : '' %>"
-        href="/admin/products"
-        >Admin Products
-      </a>
+      <a class="<%= path === '/admin/products' ? 'active' : '' %>" href="/admin/products">Admin Products </a>
+    </li> -->
+    <li class="main-header__item">
+      <a class="<%= path === '/login' ? 'active' : '' %>" href="/login"
+        >Login</a
+      >
     </li>
   </ul>
 </nav>
