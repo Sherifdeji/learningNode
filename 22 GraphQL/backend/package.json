@@ -1,0 +1,30 @@
+{
+  "name": "nodecourse",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js"
+  },
+  "author": "Ibrahim Sherif",
+  "license": "ISC",
+  "description": "Complete Node.js Guide",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^17.2.3",
+    "express": "^4.19.2",
+    "express-graphiql-explorer": "^0.0.3",
+    "express-validator": "^7.0.1",
+    "graphql": "^15.8.0",
+    "graphql-http": "^1.22.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.4",
+    "multer": "^1.4.5-lts.1",
+    "npm": "^10.5.0",
+    "validator": "^13.11.0"
+  }
+}
